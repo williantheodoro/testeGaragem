@@ -38,7 +38,6 @@ public class ParkingSession {
     @Column(name = "final_amount", precision = 10, scale = 2)
     private BigDecimal finalAmount;
     
-    // Constructors
     public ParkingSession() {}
     
     public ParkingSession(String licensePlate, Sector sector, LocalDateTime entryTime, BigDecimal appliedPrice) {
@@ -48,7 +47,6 @@ public class ParkingSession {
         this.appliedPrice = appliedPrice;
     }
     
-    // Getters and Setters
     public Long getId() {
         return id;
     }

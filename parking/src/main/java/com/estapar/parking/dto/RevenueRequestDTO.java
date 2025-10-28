@@ -11,7 +11,6 @@ public class RevenueRequestDTO {
     
     private String sector;
     
-    // Constructors
     public RevenueRequestDTO() {}
     
     public RevenueRequestDTO(LocalDate date, String sector) {
@@ -19,7 +18,6 @@ public class RevenueRequestDTO {
         this.sector = sector;
     }
     
-    // Getters and Setters
     public LocalDate getDate() {
         return date;
     }

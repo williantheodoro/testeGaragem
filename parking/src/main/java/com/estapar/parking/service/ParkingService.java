@@ -78,13 +78,13 @@ public class ParkingService {
         System.out.println("💰 Applied price: R$ " + appliedPrice + 
             " (base: R$ " + selectedSector.getBasePrice() + ")");
         
-        // ✅ CORREÇÃO: Criar sessão SEM spot (será atribuído no PARKED)
+        //  Criar sessão SEM spot (será atribuído no PARKED)
         ParkingSession session = new ParkingSession();
         session.setLicensePlate(event.getLicensePlate());
         session.setSector(selectedSector);
         session.setEntryTime(event.getEntryTime());
         session.setAppliedPrice(appliedPrice);
-        // ✅ NÃO definir spot aqui - será definido no handleParked
+        // ✅ NÃO defini spot aqui - será definido no handleParked
         
         ParkingSession savedSession = sessionRepository.save(session);
         System.out.println("✅ Entry session created with ID: " + savedSession.getId());

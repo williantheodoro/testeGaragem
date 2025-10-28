@@ -43,7 +43,6 @@ public class Sector {
         updatedAt = LocalDateTime.now();
     }
 
-    // Constructors, Getters, Setters...
     public Sector() {}
 
     public Sector(String sectorCode, BigDecimal basePrice, Integer maxCapacity) {
@@ -52,7 +51,6 @@ public class Sector {
         this.maxCapacity = maxCapacity;
     }
 
-    // Getters and Setters
     public Long getId() { return id; }
     public void setId(Long id) { this.id = id; }
     

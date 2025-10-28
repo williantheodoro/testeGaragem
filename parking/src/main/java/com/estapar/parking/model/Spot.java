@@ -8,7 +8,7 @@ import java.time.LocalDateTime;
 public class Spot {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY) // ← ESSENCIAL!
+    @GeneratedValue(strategy = GenerationType.IDENTITY) 
     private Long id;
 
     @Column(name = "spot_code", nullable = false, unique = true, length = 10)
@@ -33,7 +33,6 @@ public class Spot {
     @Column(name = "occupied_at")
     private LocalDateTime occupiedAt;
 
-    // Constructors
     public Spot() {}
 
     public Spot(String spotCode, Double longitude, Double latitude, Sector sector) {
@@ -44,7 +43,6 @@ public class Spot {
         this.occupied = false;
     }
 
-    // Getters and Setters
     public Long getId() {
         return id;
     }

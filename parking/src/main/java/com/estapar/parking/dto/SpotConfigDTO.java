@@ -8,7 +8,7 @@ public class SpotConfigDTO {
     private String id;
 
     @JsonProperty("spotCode")
-    private String spotCode; // ← CORRIGIDO: nome apropriado
+    private String spotCode; 
     
     @JsonProperty("sector")
     private String sector;
@@ -19,7 +19,6 @@ public class SpotConfigDTO {
     @JsonProperty("lng")
     private Double lng;
     
-    // Constructors
     public SpotConfigDTO() {}
     
     public SpotConfigDTO(String id, String spotCode, String sector, Double lat, Double lng) {
@@ -30,7 +29,6 @@ public class SpotConfigDTO {
         this.lng = lng;
     }
 
-    // Getters and Setters
     public String getId() {
         return id;
     }

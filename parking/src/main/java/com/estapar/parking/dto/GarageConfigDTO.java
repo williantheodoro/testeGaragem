@@ -31,7 +31,6 @@ public class GarageConfigDTO {
         this.spots = spots;
     }
     
-    // Inner class para Sector
     public static class SectorConfigDTO {
         private String sector;
         private BigDecimal basePrice;
@@ -71,7 +70,6 @@ public class GarageConfigDTO {
         }
     }
     
-    // Inner class para Spot
     public static class SpotConfigDTO {
         private Long id;
         private String sector;

@@ -15,10 +15,8 @@ public class SectorConfigDTO {
     @JsonProperty("max_capacity")
     private Integer maxCapacity;
     
-    // Constructors
     public SectorConfigDTO() {}
     
-    // Getters and Setters
     public String getSector() {
         return sector;
     }

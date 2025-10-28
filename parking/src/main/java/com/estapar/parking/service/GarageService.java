@@ -26,7 +26,6 @@ public class GarageService {
     
     private final RestTemplate restTemplate = new RestTemplate();
     
-    // ✅ Use o mock local
     private static final String SIMULATOR_URL = "http://localhost:3003/mock/garage";
     
 //    @Transactional

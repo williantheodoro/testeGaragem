@@ -9,7 +9,6 @@ public class RevenueResponseDTO {
     private String currency;
     private LocalDateTime timestamp;
     
-    // Constructors
     public RevenueResponseDTO() {
         this.currency = "BRL";
         this.timestamp = LocalDateTime.now();
@@ -21,7 +20,6 @@ public class RevenueResponseDTO {
         this.timestamp = LocalDateTime.now();
     }
     
-    // Getters and Setters
     public BigDecimal getAmount() {
         return amount;
     }
