@@ -71,6 +71,12 @@ docker-compose exec db psql -U postgres -d parking_db
 # Reiniciar aplicação
 docker-compose restart app
 
+# Executar todos os testes
+mvn clean test -Dtest=RevenueServiceTest
+
+# Executar com testes de mutação
+mvn clean test-compile org.pitest:pitest-maven:mutationCoverage
+
 📊 Endpoints
 Método	Endpoint	Descrição
 GET	    /garage	  Retorna configuração da garagem
