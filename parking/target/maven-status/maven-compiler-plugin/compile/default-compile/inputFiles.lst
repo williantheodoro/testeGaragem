@@ -3,10 +3,8 @@ C:\Projeto\parking\src\main\java\com\estapar\parking\dto\GarageConfigDTO.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\controller\RevenueController.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\dto\RevenueRequestDTO.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\dto\SpotConfigDTO.java
-C:\Projeto\parking\src\main\java\com\estapar\parking\controller\AdminController.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\repository\SectorRepository.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\repository\SpotRepository.java
-C:\Projeto\parking\src\main\java\com\estapar\parking\controller\MockGarageController.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\service\GarageService.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\dto\RevenueResponseDTO.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\service\RevenueService.java
@@ -15,9 +13,11 @@ C:\Projeto\parking\src\main\java\com\estapar\parking\repository\ParkingSessionRe
 C:\Projeto\parking\src\main\java\com\estapar\parking\exception\VehicleAlreadyParkedException.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\model\Spot.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\model\ParkingSession.java
+C:\Projeto\parking\src\main\java\com\estapar\parking\config\OpenApiConfig.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\dto\WebhookEventDTO.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\ParkingApplication.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\controller\WebhookController.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\exception\ParkingFullException.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\exception\VehicleNotFoundException.java
+C:\Projeto\parking\src\main\java\com\estapar\parking\controller\GarageController.java
 C:\Projeto\parking\src\main\java\com\estapar\parking\service\ParkingService.java
